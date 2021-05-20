@@ -7,40 +7,16 @@
     <title>WebProject - GIT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-
-      HOLA HEADER 3
+        HEADER
     </header>
-    <h1 class="text-center display-2">GIT COMMON COMMANDS</h1>
+    <h1 class="text-center display-2 mb-5 text-git">GIT COMANDOS COMUNES</h1>
     <div class="container-lg">
             <h2 class="text-dark">ANTES DE INICIAR UN PROYECTO</h2>
         </tr>
-
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>
-                        <code>
-                            git config  --global user.name
-                            <span class="fw-bolder text-gray">
-                                "Jhon Doe"
-                            </span>
-                        </code>
-                    </td>
-                    <td>
-                        Configurar el nombre de usuario
-                    </td>
-                    <td>
-
-                    </td>
-                </tr>
-               
-            </tbody>
-        </table>    
-        <h2 class="text-dark">COMANDOS GIT</h2>
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
@@ -82,10 +58,58 @@
                
             </tbody>
         </table>    
+        <h2 class="text-dark">COMANDOS GIT</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>COMMAND</th>
+                    <th>DESCRIPTION</th>
+                    <th>REF</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <tr>
+                    <td>
+                        <code>
+                            git init 
+                            <!-- <span class="fw-bolder text-gray">user@gmail.com</span> -->
+                        </code>
+                    </td>
+                    <td>
+                        Inicializamos el controlador de versiones distribuida GIT en nuestro proyecto
+                    </td>
+                    <td>
+                        <a href="https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <code>
+                            git status 
+                            <!-- <span class="fw-bolder text-gray">user@gmail.com</span> -->
+                        </code>
+                    </td>
+                    <td>
+                        Realiza una verificación del estado actual de mi repositorio con respecto al último stage (git add) de archivos realizado.
+                    </td>
+                    <td>
+                        <a href="https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </td>
+                </tr>
+                
+               
+            </tbody>
+        </table>    
     </div>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+<i class="fas fa-cloud-showers-heavy    "></i>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
